@@ -1,0 +1,45 @@
+/*input {
+	width:100%;
+}*/
+/*input[type=password] {
+  width: 100%;
+}*/
+.input-wraper {
+	width: 100%;
+	margin-top:8px;
+	border:none;
+	border-bottom: 2px dashed green;
+	color:red;
+	font-style: italic;
+}
+.form-group {
+	max-width: 600px;
+	width:100%;
+	margin: 0 auto;
+}
+.form-wraper {
+	margin-top:15px;
+}
+.btn {
+	background-color: yellow;
+	border:none;
+	margin-top:15px;
+	padding: 15px;
+	width:150px;
+}
+.btn-form {
+	text-align: center;
+}
+.textarea-wraper {
+	width: 100%;
+	resize: none;
+	height: 200px;
+}
+.input-wraper,
+.textarea-wraper:focus {
+	outline: none;
+}
+.input-wraper::placeholder {
+	color: yellow;
+	padding-left:8px;
+}
